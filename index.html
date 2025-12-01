@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教学百宝箱</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+    <!-- 标题区 -->
+    <header class="bg-indigo-600 text-white py-8 shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-2">🎓 教学百宝箱</h1>
+            <p class="text-indigo-100">互动式数位教具资源平台</p>
+        </div>
+    </header>
+
+    <!-- 工具列表区 -->
+    <main class="container mx-auto px-4 py-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+            <!-- 工具卡片 1：时钟 -->
+            <!-- href 填写你的文件夹名字 -->
+            <a href="./clock/" class="group block bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-slate-100">
+                <div class="h-32 bg-blue-100 flex items-center justify-center text-5xl group-hover:scale-110 transition-transform">
+                    ⏰
+                </div>
+                <div class="p-5">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2 group-hover:text-indigo-600">时钟转转乐</h3>
+                    <p class="text-slate-500 text-sm">认识时针、分针，学习看时间。</p>
+                </div>
+            </a>
+
+            <!-- 工具卡片 2：(示例) -->
+            <a href="./roulette/" class="group block bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-slate-100">
+                <div class="h-32 bg-green-100 flex items-center justify-center text-5xl group-hover:scale-110 transition-transform">
+                    🎡
+                </div>
+                <div class="p-5">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2 group-hover:text-indigo-600">幸运大转盘</h3>
+                    <p class="text-slate-500 text-sm">随机抽签、抽奖工具。</p>
+                </div>
+            </a>
+            
+            <!-- 你可以继续复制上面的 <a> 标签来添加更多工具 -->
+
+        </div>
+    </main>
+
+    <footer class="text-center py-8 text-slate-400 text-sm">
+        &copy; 2025 卢老师. All rights reserved.
+    </footer>
+
+</body>
+</html>
